@@ -1,0 +1,110 @@
+/*creating a frame to emulate commodore 64 starup screen*/
+.c64 {
+  background-color:#4040E0;;
+  height: 5%;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  color: #A0A0FF;
+}
+
+body{
+  background-color:#A0A0FF;
+}
+
+
+/*h1 h2 h3 h5 all aligned center with the same color and font family*/
+h1,h2,h3,h5{
+  text-align: center;
+  color:#A0A0FF; /*#887ecb*/
+  font-family:c64,Arial, Helvetica, sans-serif;
+}
+
+/*set h1 to 25 px*/
+h1{
+  font-size: 25px;
+}
+
+/*set h2 to 15 px*/
+h2{
+  font-size: 15px;
+}
+
+/*set h3 to 13 px*/
+h3{
+  font-size: 13px;
+}
+
+/*set h5 to 13 px*/
+h5{
+  font-size: 16px;
+}
+
+/*set p to 15 px, justified, sets color and font family*/
+p{
+  font-size: 20px;
+  text-align:justify;
+  color: #A0A0FF;/*#887ecb;*/
+  font-family:c64,Arial, Helvetica, sans-serif;
+}
+
+/*sets the horizontal rule to the diamond shape*/
+hr {
+  width: 15px;
+  height: 15px;
+  background:#A0A0FF;/*#887ecb;*/
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+
+/*unordered list, ordered list, list items and links all are the same color*/
+ol,ul,li,a{
+color:#A0A0FF;/*#887ecb;*/
+font-family: "c64";
+}
+
+/*wrapper set to that content in intro, about, contact, and links section have same width,margin, and padding*/
+.wrapper {
+  /*width: 500px;*/
+  margin: auto;
+  padding: 20px;
+}
+
+/*sets the field where the text is setup to have the darker background with lighter text*/
+.textfield{
+  background-color: #50459b;
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+  height: 75%;
+  
+}
+
+/*sets background to have a darker color with auto margin and 20 px padding*/
+.background{
+  background-color:#887ecb;
+  margin: auto;
+  padding: 20px;
+}
+
+/*psuedo classes for behavior of links*/
+a:link    { color: #A0A0FF;/*#887ecb*/  }
+a:visited { color: #c9d487   }
+a:hover   { color: #9ae29b  }
+a:active  { color:white  }
+
+/*css to center an image*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+@font-face {
+  font-family: "c64";
+  src: url("fonts/c64.woff") format("woff");
+    
+}
