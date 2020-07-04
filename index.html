@@ -9,83 +9,90 @@
   </head>
   <body>
 
-    <!-- class that emulates commodore 64 starup screen -->
-    <div class ="c64">
-
-      <div class ="wrapper">
+        <!-- class that emulates commodore 64 starup screen -->
+    <section class ="c64">
       <!-- header contains name and title -->
-    <header>
+    <header class ="wrapper">
       <h1>* * * Bryant Davis * * *</h1>
       <h2>software developer</h2>
       <img src ="images/folder-icon.jpeg" alt="icon of folder" class = "center">
     </header>
-    </div>
 
-    <hr>
 
     <!-- beginning of main-->
     <main>
+        <hr>
 
-      <!-- intro section with brief introduction -->
+    <!--intro-->
+    <section class ="wrapper">
+       <!-- besides the p tag is inside the div with the "wrapper" class, which sets width, margin, and padding aroud it's contents -->
+      <!--<article class="wrapper">-->
+        <!-- intro section with brief introduction -->
       <h3>Intro:</h3>
 
-      <!-- besides the p tag is inside the div with the "wrapper" class, which sets width, margin, and padding aroud it's contents -->
-      <article class="wrapper">
-      <p>Hello,I'm Bryant Davis, a software developer in the tri-state area. I have excellent soft skills, I can solve problems individually, I am self directed, motivated and curious. My aim is to deliver work that is precise to requirements, exceeds expectations, and ahead of schedule when possible. I also strive to be a good fit for any team.</p>
-      </article>
+  <p>Hello,I'm Bryant Davis, a software developer in the tri-state area. I have excellent soft skills, I can solve problems individually, I am self directed, motivated and curious. My aim is to deliver work that is precise to requirements, exceeds expectations, and ahead of schedule when possible. I also strive to be a good fit for any team.</p>
+      <!--</article>-->
+    </section>
 
       <hr>
 
-      <!--beginning of about me section of page-->
+
+      <!--about me -->
+      <section class = "wrapper">
+   
+       <!--"wrapper" class, which sets width, margin, and padding aroud it's contents -->
+      <!--<article class = "wrapper">-->
+
+           <!--beginning of about me section of page-->
       <h3>About me:</h3>
 
-      <!--"wrapper" class, which sets width, margin, and padding aroud it's contents -->
-      <article class = "wrapper">
       <!--<p> I'm a web developer who is looking forward to working on fun and interesting projects both individually and as part of a team.</p>-->
-
-      <p>Outside of web development I have a variety of other interests. I love to read and do my own indipendent research on a many different topics. I am interested in early computer history,videogame history,retrocomputing,retro games,arcade games, art,design,physical computing and S.T.E.A.M.</p>
-      </article>
+      <p>Outside of web development I have a variety of other interests. I love to read and do my own indipendent research on many different topics. I am interested in early computer history,videogame history,retrocomputing,retrogaming,arcade games,art,design,physical computing and S.T.E.A.M.</p>
+      <!--</article>-->
+      </section>
 
       <hr>
     
-    <!-- beginning of contac section of page-->
-      <h3>Contact:</h3>
 
+    <!--contact-->
+    <section class = "wrapper">
       <!--"wrapper" class, which sets width, margin, and padding aroud it's contents -->
-      <div class = "wrapper">
-
-        <!-- unordered list with links to linkedin and github-->
+      <!--<article class = "wrapper">-->
+      <h3>Contact:</h3>
+      <!-- unordered list with links to linkedin and github-->
       <ul>
       <li><a href ="https://www.linkedin.com/in/bryant-davis-a3028726/" target="_blank">linkedin</a></li>
       <li><a href ="https://github.com/hackermann20xx" target="_blank">github</a></li>
       </ul>
-      </div>
+      <!--</article>-->
+    </section>
 
       <hr>
 
-      <!--another set of links this time linking to interesting sites using an ordered list-->
-      <h3> Links of interest:</h3>
 
+      <!--links-->
        <!--"wrapper" class, which sets width, margin, and padding aroud it's contents -->
-      <div class = "wrapper">
+      <section class = "wrapper">
+         <!--another set of links this time linking to interesting sites using an ordered list-->
+      <h3> Links of interest:</h3>
       <ol>
         <li><a href ="https://makezine.com/" target="_blank">Makezine</a></li>
         <li><a href="https://magpi.raspberrypi.org/" target="_blank">The Mag Pi</a></li>
       </ol>
-      </div>
+      </section>
 
   </main>
 
   <!-- footer containing copyright and credits -->
-   <div class = "wrapper">
+   <section class = "wrapper">
     <footer>
       <h5> design and © copyright Bryant Davis</h5>
     </footer>
-    </div>
+    </section>
 
 
-  <!-- end of c64 div -->
-    </div>
+  <!-- end of c64 section -->
+    </section>
 
   </body>
 </html>
